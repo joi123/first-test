@@ -113,7 +113,7 @@ function love.draw()
 	love.graphics.draw(bg)
 	
 	-- Draw the ground
-	love.graphics.setColor(0,255,0,255)
+	love.graphics.setColor(255,0,0,255)
 	love.graphics.rectangle("fill", 0, 465, 800, 150)
 	
 	-- Draw the hero
